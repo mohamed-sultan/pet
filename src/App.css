@@ -1,7 +1,6 @@
 #root {
-  text-align: center;
-  pad: 0;
-  margin: 0;
+  pad: -5px;
+  margin: -5px;
 
 }
 
@@ -179,6 +178,7 @@
 
 .petName {
   color: #000 !important;
+  text-align: center;
 }
 
 .categoryWrapper {
@@ -299,4 +299,19 @@
 .pet-breadcrumb {
   margin-bottom: 32px;
   font-weight: bold;
+}
+
+.with-card-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.with-card {
+  width: 80vw;
+  max-width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+  border: none;
+  padding: 32px;
 } 
