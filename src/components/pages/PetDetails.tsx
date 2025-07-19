@@ -104,7 +104,7 @@ const PetDetails: React.FC = () => {
                 )}
               </div>
               <div className="petInfoWrapper">
-                <Typography.Title level={2} className="petName">{pet?.name}</Typography.Title>
+                <Typography.Title level={2} className="petName">{pet?.name}</Typography.Title> 
                 <div className="categoryWrapper">
                   <Typography.Text type="secondary" className="categoryLabel">Category:</Typography.Text>
                   <Typography.Text className="categoryValue">{pet?.category?.name || 'No category'}</Typography.Text>
