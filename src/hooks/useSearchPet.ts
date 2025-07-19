@@ -4,7 +4,7 @@ interface Pet {
   id: number;
   name: string;
   status: string;
-  tags?: { id: number; name?: string }[];
+  tags?: { id: number; name: string }[];
 }
 
 export const useSearchPet = (pets: Pet[], searchQuery: string, selectedStatus: string) => {

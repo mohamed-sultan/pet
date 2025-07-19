@@ -2,7 +2,6 @@ import { Switch, Row, Col, Avatar, Dropdown, Menu } from 'antd';
 import { useThemeStore } from '../../store/themeStore';
 import { useUserStore } from '../../store/userStore';
 import { UserOutlined, LogoutOutlined } from '@ant-design/icons';
-import React from 'react';
 
 const Header = () => {
   const isDark = useThemeStore((state) => state.isDark);

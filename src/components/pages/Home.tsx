@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState } from 'react';
 import {  Typography, Space } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import { RenderPet } from '../Molecules/RenderPet';
@@ -40,7 +40,7 @@ const Home: React.FC = () => {
           ))}
         </>
       ) : (
-        <RenderPet filteredPets={filteredPets}  navigate={navigate} />
+        <RenderPet filteredPets={filteredPets as any}  navigate={navigate} />
       )}
     </div>
   );

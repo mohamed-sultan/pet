@@ -14,7 +14,7 @@ interface RegisterFormFields {
 
 export const RegisterForm: React.FC = () => {
   const [api, contextHolder] = notification.useNotification();
-  const { control, handleSubmit, formState: { errors, isSubmitting }, reset } = useForm<RegisterFormFields>({
+  const { control, handleSubmit, formState: { errors, isSubmitting } } = useForm<RegisterFormFields>({
     mode: 'onChange',
     defaultValues: {
       username: 'sultan',

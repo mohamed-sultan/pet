@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Badge } from 'antd';
-import { HeartFilled } from '@ant-design/icons';
 
 export interface PetCardPet {
   id: string | number;
