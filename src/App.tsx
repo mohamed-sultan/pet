@@ -28,7 +28,8 @@ const App = () => {
         <div > 
           <Header />
           <div style={{ marginTop: 32 }}>
-            <Routes  >
+              <Routes  >
+              <Route path="/" element={React.createElement(withAuth(Home))} />
               <Route path="/home" element={React.createElement(withAuth(Home))} />
               <Route path="/login" element={<Login />} />
               <Route path="/pet/:id" element={React.createElement(withAuth(PetDetails))} />

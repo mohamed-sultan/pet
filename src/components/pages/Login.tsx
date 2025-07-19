@@ -15,7 +15,7 @@ export default function Login() {
   const isDark = useThemeStore((state) => state.isDark);
 
   return (
-    <div style={{display:'flex',justifyContent:'center',alignItems:'center',height:'80vh'}}>
+    <div style={{display:'flex',justifyContent:'center',alignItems:'center',minHeight:'80vh'}}>
     <WithCardComponent>
         <div  className="login-header-icons">
           <PawIcon color={isDark ? '#fff' : '#222'} />

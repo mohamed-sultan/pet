@@ -38,7 +38,7 @@ export const LoginForm: React.FC = () => {
           });
           setTimeout(() => {
             navigate('/home');
-          }, 300);
+          }, 600);
         },
       }
     );
